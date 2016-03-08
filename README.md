@@ -1,8 +1,8 @@
 # FELikeSea
 Baidu IFE 团队 FELikeSea 项目主页
 
-[百度前端技术学院](http://ife.baidu.com/) 
-[baidu-ife|github](https://github.com/baidu-ife/ife)
+- [百度前端技术学院](http://ife.baidu.com/) 
+- [baidu-ife|github](https://github.com/baidu-ife/ife)
 
 ## 团队成员
 
@@ -14,7 +14,7 @@ Baidu IFE 团队 FELikeSea 项目主页
 
 ## 任务描述
 
-[热身任务](http://ife.baidu.com/static/warmup.html)
+- [热身任务](http://ife.baidu.com/static/warmup.html)
 
 ## 学习资源
 

@@ -1,0 +1,63 @@
+/* first page */
+html{ font-size: 62.5% }/* 10px */
+section{width:100%; height:100%; overflow: hidden;margin:0 auto;z-index:0;}
+#firstPage{height:768px; background-color:#1f3763; font-size: 7rem; color:#fff; text-align: center;}
+.blockTitle {position: absolute;/* 定位动画效果*/ margin:0 auto; width:100%;}
+#loading{margin: 0;font-family: Blackadder ITC, 微软雅黑;}
+#prog {
+    position: relative;
+    width: 500px;
+    height: 36px;
+    background-color:#1f3763;
+    margin-top: -25px
+}
+/*上边框*/
+#prog:before{
+    content: '';
+    display: inline-block;
+    width: 510px;
+    height: 2px;
+    position: absolute;
+    top: -8px;
+    left: -5px;
+    background-color: #fff;
+}
+/*左边框*/
+#prog:after{
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 48px;
+    position: absolute;
+    top: -6px;
+    left: -5px;
+    background-color: #fff;
+}
+
+progress::-moz-progress-bar { background: #1f3763; }
+progress::-webkit-progress-bar { background: #1f3763; }/*bar背景*/
+progress::-webkit-progress-value  { background: #fff; }/*bar过渡颜色*/
+
+#numValue{ font-size: 4rem;width: 500px; margin: 0 auto; text-align: center;position: relative;}
+/*下边框*/
+#numValue:before{
+    content: '';
+    display: inline-block;
+    width: 510px;
+    height: 2px;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    background-color: #fff;
+}
+/*右边框*/
+#numValue:after{
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 48px;
+    position: absolute;
+    top: -57px;
+    right: -5px;
+    background-color: #fff;
+}

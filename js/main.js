@@ -5,8 +5,16 @@
     });//ready
 
     $(window).resize(function(){ 
-        $("#firstPage,.memberPages").css("height", $(window).height());
+        $("#firstPage").css("height", $(window).height());
+        //修复小窗口下显示交叉问题
+        if($(window).height()>=702){
+        	$(".memberPages").css("height", $(window).height());	
+        }else{
+        	$(".topLine,.bottomLine").hide();
+        }
+        
         //首页文字slidedown效果
+        
         $('.blockTitle').stop().fadeIn("normal").animate({
             "top" : ($(window).height() - $('.blockTitle').outerHeight())/2
         },500); 
@@ -42,6 +50,7 @@
 //teamMembers模块
 (function(){
 	//teamMembers页面article元素垂直居中
+	if($(window).height()<702){return;}
 	var h=($(window).height()/2-351)+"px";
 	$("article").css("top",h);
 	//页面随滑轮而滚动到下一页

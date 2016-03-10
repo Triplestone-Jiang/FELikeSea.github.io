@@ -61,6 +61,50 @@ progress::-webkit-progress-value  { background: #fff; }/*bar过渡颜色*/
     right: -5px;
     background-color: #fff;
 }
+/*朋友圈首页*/
+#moment #momentInner{
+	width:936px;
+	margin-left: auto;
+	margin-right:auto;
+}
+#moment #momentInner #momentPage{
+	position: relative;
+	height: 702px;;
+}
+
+#moment #momentInner #header img{
+	width:936px;
+}
+#moment #momentInner #white{
+	display:block;
+	position: absolute;
+	z-index: 9;
+	height:100px;
+	top:-100px;
+}
+#moment #momentInner #wrapper img{
+	width:936px;
+	display: inline-block;
+	margin-top: -4px;;
+	
+}
+#moment #momentInner #felikesea{
+	margin:-106px 0 0 760px;
+	
+}
+#moment #momentInner #felikesea img{
+	width:140px;
+	box-shadow: 0 0 4px #111;
+}
+#moment #momentInner #circle{
+	position: absolute;
+	left:60px;
+	z-index: 1;
+	top:-100px;
+}
+#moment #momentInner #circle img{
+	width:80px;
+}
 /*teamMembers模块 开始*/
 #teamMembers .teamMember .memberPages{
 	position:relative;
@@ -150,7 +194,6 @@ progress::-webkit-progress-value  { background: #fff; }/*bar过渡颜色*/
 	background-color:#BFBFBF;
 	margin-bottom: 10px;
 }
-/*teamMembers模块 结束*/
 /*memberInfo*/
 .relative{
 	position: relative;

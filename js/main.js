@@ -95,3 +95,16 @@
 		});
 	});
 })();
+
+//页面下滑至homePage页面
+$(function(){
+        $('#homePage').on('scrollSpy:enter', function() {
+		console.log('enter:', $(this).attr('id'));
+	});
+
+	$('#homePage').on('scrollSpy:exit', function() {
+		console.log('exit:', $(this).attr('id'));
+	});
+
+	$('#homePage').scrollSpy();
+})
